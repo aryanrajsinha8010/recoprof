@@ -160,7 +160,7 @@ If the AI incorrectly predicts your sign during live prediction:
 1. Press the **`R`** key on your keyboard.
 2. The webcam explicitly suspends its buffer, and an asynchronous GUI window instantly queues on screen.
 3. Select whether the AI misunderstood the Shape or the Sign.
-4. Input what your intended word was (e.g., `boob` or `bye`).
+4. Input what your intended word was (e.g., `hello` or `bye`).
 5. Upon hitting Submit, the system **silently records your exact physical coordinates**, seamlessly integrates them into `asl_hand_landmarks.csv`, immediately executes `train.py` in a threaded background process, and **hot-swaps the AI's internal memory** in less than 2 seconds without you ever having to restart the script!
 
 ---
