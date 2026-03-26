@@ -170,7 +170,7 @@ If the AI incorrectly predicts your sign during live prediction:
 | Resource | Link |
 |----------|------|
 | WLASL Dataset | https://github.com/dxli94/WLASL |
-| Base Repo Idea | https://github.com/VivanRajath/ASL |
+
 
 ---
 
