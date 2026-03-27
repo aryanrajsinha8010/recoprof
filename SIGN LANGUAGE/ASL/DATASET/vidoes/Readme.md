@@ -35,7 +35,7 @@ dataset/
 └── WLASL_v0.3.json
 ```
 
-🧠 Definition Mapping File
+🧠 Mapping File
 ---
 Make sure the following file exists:
 
