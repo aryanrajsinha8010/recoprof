@@ -45,9 +45,9 @@ def get_model(method, k):
         data = np.load(model_path, allow_pickle=True)
         model = GaussianNaiveBayes()
         model.classes_ = data['classes']
-        model.class_prior_ = data['class_prior']
-        model.class_mean_ = data['class_mean']
-        model.class_var_ = data['class_var']
+        model.priors_ = data['class_prior']
+        model.means_ = data['class_mean']
+        model.vars_ = data['class_var']
         
         scaler.mean_ = data['scaler_mean']
         scaler.scale_ = data['scaler_scale']
