@@ -133,7 +133,7 @@ Note:
 ---
 Moving to Step 2 requires completing Step 1 , Only If  You have thinking to train the models again
 
-Models are already trained for testing purpose , You can skip to Step 3 for testing .
+Models are already trained for testing purpose ,  _You can skip to Step 3 for testing_ .
 
 ---
 
