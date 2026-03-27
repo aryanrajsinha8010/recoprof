@@ -61,8 +61,11 @@ Before running the project, verify:
 🚨 Common Mistakes
 ---
 ❌ Placing videos in `dataset/videos/videos/`
+
 ❌ Missing WLASL_v0.3.json
+
 ❌ Keeping dataset zipped
+
 ❌ Renaming files or folders
 
 💡 Tip
