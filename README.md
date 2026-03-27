@@ -157,6 +157,10 @@ python main.py --predict --method knn
 # Recommend using `rf` for absolute performance immunity against webcam mirroring
 python main.py --predict --method rf
 ```
+Note:
+---
+During live inference, you can press **`Esc`** on your keyboard at any time to safely close the webcam window and exit the script.*
+
 
 ---
 
