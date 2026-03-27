@@ -159,7 +159,7 @@ python main.py --predict --method rf
 ```
 Note:
 ---
-During live inference, you can press **`Esc`** on your keyboard at any time to safely close the webcam window and exit the script.*
+During live inference, you can press **`Esc`** on your keyboard at any time to safely close the webcam window and exit the interface.
 
 
 ---
