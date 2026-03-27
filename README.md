@@ -112,7 +112,7 @@ Because this system processes geometric landmarks entirely offline (no external 
    - Ensure the definition mapping file `WLASL_v0.3.json` exists in `dataset/`.
 3. **Core Feature Database (`asl_hand_landmarks.csv`)**:
    - Extract the compressed `asl_hand_landmarks.zip` directly into the root folder before training any of the models.
-   - *(Alternatively, if the ZIP is missing, you can directly download the fully compiled 36MB dataset file from [Kaggle](https://www.kaggle.com/datasets/aryanraj801/asl-hand-landmarks)).*
+   - *(Alternatively, if the ZIP is missing, you can directly download the fully compiled 36MB dataset file from my [Kaggle](https://www.kaggle.com/datasets/aryanraj801/asl-hand-landmarks)).*
 
 ### 4. Configuration
 You can explicitly control which words the AI learns and detects by editing `config.py`. The `COMMON_WORDS` list dictating the vocabulary is currently configured to roughly 37 morphologically distinct signs for maximum real-world reliability.
