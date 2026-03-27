@@ -181,14 +181,6 @@ If the AI incorrectly predicts your sign during live prediction:
 
 ---
 
-## 🔗 Base Reference
-
-| Resource | Link |
-|----------|------|
-| WLASL Dataset | https://github.com/dxli94/WLASL |
-
-
----
 
 *MIT License — Open source for academic use.*  
 *Submitted conditionally representing Fundamentals of AI — BYOP Project.*
