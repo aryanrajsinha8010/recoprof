@@ -137,6 +137,8 @@ Moving to Step 2 requires completing Step 1 , Only If  You have thinking to trai
 
 Models are already trained for testing purpose , You can skip to Step 3 for testing .
 
+---
+
 ### Step 2 — Train the Machine Learning Backends
 Please check for asl_hand_landmarks.csv (Refer to Step 1) and for model files (`.npz` and `.joblib`) , If Missing then,
 You must build the AI's internal model files (`.npz` and `.joblib`) before running the live webcam. You can compile three separate architectures:
