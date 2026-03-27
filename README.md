@@ -45,7 +45,7 @@ This project implements a **Real-Time American Sign Language (ASL) Word Recognit
 ---
 
 ## 🗂️ Project Structure
-```text
+```
 SIGN LANGUAGE/ASL/
 │
 ├── main.py                ← Central CLI router
