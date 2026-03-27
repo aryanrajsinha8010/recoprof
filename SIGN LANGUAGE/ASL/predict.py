@@ -318,6 +318,10 @@ def main():
 
         cv2.putText(frame, f'Recognized: {spelled_text}', (10, 40),
                     cv2.FONT_HERSHEY_SIMPLEX, 1.2, (255, 0, 0), 3)
+                    
+        h, w, _ = frame.shape
+        cv2.putText(frame, "Press 'Esc' to close", (10, h - 50),
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 0, 255), 2)
 
         cv2.imshow("ASL Detection", frame)
         key = cv2.waitKey(1) & 0xFF
