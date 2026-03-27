@@ -1,7 +1,5 @@
 # 🤟 ASL Sign Language Recognition — Fundamentals of AI (BYOP)
 
-> **Build Your Own Project** | Fundamentals of AI  
-> VIT Bhopal University | AI/ML Branch
 
 ---
 
