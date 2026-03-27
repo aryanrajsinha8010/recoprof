@@ -17,11 +17,11 @@ Download the pre-filtered 1,000-word ASL Dataset from Kaggle:
 Download the .zip file from Kaggle
 Extract the contents
 Ensure that all .mp4 video files are placed inside:
-dataset/videos/
+`dataset/videos/`
 
 ⚠️ Important:
 ---
-Do not create extra nested folders inside videos/
+Do not create extra nested folders inside `videos/`
 All video files must be directly inside this directory
 📄 Required File Structure
 
@@ -39,7 +39,7 @@ dataset/
 ---
 Make sure the following file exists:
 
-dataset/WLASL_v0.3.json
+`dataset/WLASL_v0.3.json`
 
 This file contains:
 
@@ -54,13 +54,13 @@ Metadata required for training/inference
 Before running the project, verify:
 
  Dataset downloaded from Kaggle
- .mp4 files are inside dataset/videos/
- No extra subfolders inside videos/
- WLASL_v0.3.json exists in dataset/
+ .mp4 files are inside `dataset/videos/`
+ No extra subfolders inside `videos/`
+ WLASL_v0.3.json exists in `dataset/`
 
 🚨 Common Mistakes
 ---
-❌ Placing videos in dataset/videos/videos/
+❌ Placing videos in `dataset/videos/videos/`
 ❌ Missing WLASL_v0.3.json
 ❌ Keeping dataset zipped
 ❌ Renaming files or folders
