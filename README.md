@@ -91,7 +91,7 @@ SIGN LANGUAGE/ASL/
 It is highly recommended to isolate the project using a Python virtual environment to avoid dependency conflicts.
 ```bash
 # Clone the base tracking repository
-git clone https://github.com/VivanRajath/ASL
+git clone https://github.com/aryanrajsinha8010/recoprof
 cd ASL
 
 # Create and activate a Virtual Environment
