@@ -131,8 +131,14 @@ If you wish to recalculate the Euclidean models from the raw `.mp4` video files:
 # Evaluates thousands of videos, outputting to asl_hand_landmarks.csv
 python main.py --extract
 ```
+Note:
+---
+Moving to Step 2 requires completing Step 1 , Only If  You have thinking to train the models again
+
+Models are already trained for testing purpose , You can skip to Step 3 for testing .
 
 ### Step 2 — Train the Machine Learning Backends
+Please check for asl_hand_landmarks.csv (Refer to Step 1) and for model files (`.npz` and `.joblib`) , If Missing then,
 You must build the AI's internal model files (`.npz` and `.joblib`) before running the live webcam. You can compile three separate architectures:
 ```bash
 # Train the Naive Bayes model
