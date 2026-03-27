@@ -148,6 +148,12 @@ python main.py --train --method rf
 ### Step 3 — Boot the Real-Time Webcam Inference
 To test the live gesture tracking against the models you just trained:
 ```bash
+# Recommend using bayes for probabilistic inference enabling noise-tolerant classification through prior and likelihood estimation
+python main.py --predict --method bayes
+
+# Recommend using knn for instance-based adaptive classification leveraging local neighborhood similarity for robust real-time predictions
+python main.py --predict --method knn
+
 # Recommend using `rf` for absolute performance immunity against webcam mirroring
 python main.py --predict --method rf
 ```
